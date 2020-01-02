@@ -62,7 +62,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .and()
                 // 403 예외처리 핸들링
                 .exceptionHandling().accessDeniedPage("/user/denied");
-        	//참고 : https://www.slipp.net/questions/546
+        	//참고 : https://www.slipp.net/questions/546..
     }
 
     @Override
